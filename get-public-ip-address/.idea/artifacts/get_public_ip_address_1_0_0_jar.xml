@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="get-public-ip-address-1.0.0:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/get_public_ip_address_1_0_0_jar</output-path>
+    <root id="archive" name="get-public-ip-address-1.0.0.jar">
+      <element id="library" level="project" name="jsoup-1.10.3" />
+      <element id="module-output" name="get-public-ip-address-1.0.0" />
+    </root>
+  </artifact>
+</component>
