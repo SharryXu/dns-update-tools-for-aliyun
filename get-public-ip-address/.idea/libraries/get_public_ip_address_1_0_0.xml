@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="get-public-ip-address-1.0.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/artifacts/alidnsget_1_0_0_jar/alidnsget-1.0.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

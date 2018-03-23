@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="update-dns-record-1.0.0:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/update_dns_record_1_0_0_jar</output-path>
+    <root id="archive" name="update-dns-record-1.0.0.jar">
+      <element id="module-output" name="update-dns-record-1.0.0" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/get-public-ip-address-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/aliyun-java-sdk-alidns-2.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/aliyun-java-sdk-core-3.2.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
