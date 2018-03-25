@@ -59,10 +59,10 @@ public class DnsOperator {
         }
     }
 
-    public boolean UpdateDomainRecords(String recordId, Record record) throws ClientException {
-        if (recordId != null && !recordId.isEmpty()) {
+    public boolean UpdateDomainRecords(Record record) throws ClientException {
+        if (record != null) {
             UpdateDomainRecordRequest updateRequest = new UpdateDomainRecordRequest();
-            updateRequest.setRecordId(recordId);
+            updateRequest.setRecordId(record.getRecordId());
             updateRequest.setType(record.getType());
             updateRequest.setRR(record.getRR());
             updateRequest.setValue(record.getValue());
